@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/countryName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:lines="2"
+        android:layout_weight="0.95">
+    </TextView>
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/vaccined"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/populaion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:textColor="@color/black"
+        android:layout_weight="1">
+    </TextView>
+
+</LinearLayout>
